@@ -1,0 +1,11 @@
+@font-face {
+    font-family: cursiva;
+    src: url(Pacifico/Pacifico-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Merienda;
+    src: url(Merienda/Merienda-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400;
+}

@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3e5ab;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.flower-bouquet {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 80px; 
+    text-align: center;
+}
+ 
+.flower {
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+
+.petal {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background-color: red;
+    border-radius: 60%;
+}
+
+.petal:nth-child(1) {
+    top: 0;
+    left: 40px;
+    transform: rotate(0deg);
+}
+
+.petal:nth-child(2) {
+    top: 25px;
+    left: 100px;
+    transform: rotate(60deg);
+}
+
+.petal:nth-child(3) {
+    top: 85px;
+    left: 100px;
+    transform: rotate(120deg);
+}
+
+.petal:nth-child(4) {
+    top: 110px;
+    left: 40px;
+    transform: rotate(180deg);
+}
+
+.petal:nth-child(5) {
+    top: 85px;
+    left: -20px;
+    transform: rotate(240deg);
+}
+
+.petal:nth-child(6) {
+    top: 25px;
+    left: -20px;
+    transform: rotate(300deg);
+}
+
+.center {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.stem{
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 100px;
+    background-color: green;
+}
+
+.center-flower .note {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    width: 60px;
+}

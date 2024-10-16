@@ -1,0 +1,158 @@
+.body1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #abe3f3;
+    margin: 0;
+    font-family: 'cursiva', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(194,32,255);
+    background: radial-gradient(circle, rgba(194,32,255,1) 0%, rgba(219,12,119,1) 35%, rgba(0,20,255,1) 100%);
+    margin: auto;
+    font-family: 'Merienda', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flower-bouquet {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 80px; 
+    text-align: center;
+}
+
+.flower {
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+
+.petal {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background-color: red;
+    border-radius: 60%;
+}
+
+.petal:nth-child(1) {
+    top: 0;
+    left: 40px;
+    transform: rotate(0deg);
+}
+
+.petal:nth-child(2) {
+    top: 25px;
+    left: 100px;
+    transform: rotate(60deg);
+}
+
+.petal:nth-child(3) {
+    top: 85px;
+    left: 100px;
+    transform: rotate(120deg);
+}
+
+.petal:nth-child(4) {
+    top: 110px;
+    left: 40px;
+    transform: rotate(180deg);
+}
+
+.petal:nth-child(5) {
+    top: 85px;
+    left: -20px;
+    transform: rotate(240deg);
+}
+
+.petal:nth-child(6) {
+    top: 25px;
+    left: -20px;
+    transform: rotate(300deg);
+}
+
+.center {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.stem {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 100px;
+    background-color: green;
+}
+
+.center-flower .note {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.img1{
+    margin: 80px;
+    padding: 3px;
+    border-radius: 100%;
+}
+
+img{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: hotpink;
+
+}
+td{
+    text-align: center;
+    vertical-align: center;
+    margin: 30px;
+}
+div{
+    display: block;
+}
+
+.back{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgba(116, 183, 129, 0.247);
+}
+
+button{
+    justify-content: center;
+    background-color: rgba(0, 247, 255, 0.458);
+    font-size: 22px;
+    font-family: 'Merienda';
+}
+
+a{
+    font-size: 25px;
+}
+table{
+    padding: 40px;
+    margin: 60px;
+}
